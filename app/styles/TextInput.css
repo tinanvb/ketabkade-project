@@ -1,0 +1,62 @@
+.styled-input {
+  position: relative;
+}
+
+.styled-input input {
+  padding: 1rem 0.75rem 0.5rem;
+  font-size: 1rem;
+}
+
+.styled-input label {
+  position: absolute;
+  font-size: 14px;
+  right: 0.9rem;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #6c757d;
+  background: white;
+  padding: 0 4px;
+  pointer-events: none;
+  transition: 0.2s ease all;
+}
+
+/* وقتی input فوکوس شد یا مقدار گرفت */
+.styled-input input:focus + label,
+.styled-input input:not(:placeholder-shown) + label {
+  top: 0;
+  font-size: 0.8rem;
+  color: var(--hover-bg);
+}
+
+.form-control:focus {
+  box-shadow: none;
+  border-color: var(--hover-bg-30);
+}
+
+@media (max-width: 991.98px) {
+  .styled-input input {
+    padding: 1rem 0.75rem 0.5rem;
+    font-size: .9rem;
+  }
+  .styled-input label {
+    font-size: 12px;
+    right: 0.8rem;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #6c757d;
+    padding: 0 4px;
+  }
+
+  /* وقتی input فوکوس شد یا مقدار گرفت */
+  .styled-input input:focus + label,
+  .styled-input input:not(:placeholder-shown) + label {
+    top: 0;
+    font-size: 0.7rem;
+    color: var(--hover-bg);
+  }
+
+  .form-control:focus {
+    box-shadow: none;
+    border-color: var(--hover-bg-30);
+  }
+}

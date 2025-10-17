@@ -1,19 +1,42 @@
 {
-  "name": "ketabkade-project",
+  "name": "final-project",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "lint": "next lint"
   },
   "dependencies": {
-    "react": "19.1.0",
-    "react-dom": "19.1.0",
-    "next": "15.5.6"
-  },
-  "devDependencies": {
-    "@tailwindcss/postcss": "^4",
-    "tailwindcss": "^4"
+    "animate.css": "^4.1.1",
+    "axios": "^1.11.0",
+    "bcryptjs": "^3.0.2",
+    "bootstrap": "^5.3.6",
+    "highcharts": "^12.3.0",
+    "highcharts-react-official": "^3.2.2",
+    "jquery": "^3.7.1",
+    "lottie-react": "^2.4.1",
+    "lucide-react": "^0.536.0",
+    "moment-jalaali": "^0.10.4",
+    "mongodb": "^6.16.0",
+    "mongoose": "^8.15.0",
+    "next": "15.3.2",
+    "next-auth": "^4.24.11",
+    "nodemailer": "^6.10.1",
+    "owl.carousel": "^2.3.4",
+    "react": "^18.0.0",
+    "react-bootstrap": "^2.10.10",
+    "react-date-object": "^2.1.9",
+    "react-dom": "^18.0.0",
+    "react-icons": "^5.5.0",
+    "react-multi-date-picker": "^4.5.2",
+    "react-owl-carousel": "^2.3.3",
+    "react-slick": "^0.30.3",
+    "react-toastify": "^11.0.5",
+    "sanitize-html": "^2.17.0",
+    "slick-carousel": "^1.8.1",
+    "swiper": "^11.2.10",
+    "uuid": "^11.1.0"
   }
 }
